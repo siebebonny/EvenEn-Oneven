@@ -31,7 +31,7 @@ struct ContentView: View {
                         uitvoer = "oneven"
                    }
  */
-                    uitvoer = getal % 2 == 0 ? "EVEN" : "ONEVEN"
+                    uitvoer = getal % 2 == 0 ? "even" : "ONEVEN"
                 } else {
                     uitvoer = "Voer een geheel getal in."
                 }
